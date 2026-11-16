@@ -75,6 +75,19 @@ the true spherical area per cell.
 
 ---
 
+## Status
+
+**Working analysis pipeline, pre-results stage.** The index chain, trend machinery,
+footprint accounting and unit conventions are implemented and validated (18 self-tests).
+ERA5 download is reproducible via CDS; the included figures are generated from a
+physically-plausible synthetic field because the ERA5 run is intentionally deferred until
+the method is locked. Real-data figures will replace synthetic ones in the working branch.
+
+This repository demonstrates **method implementation and verification**, not a finished
+climate assessment. Do not cite `figures/` outputs as observed trends.
+
+---
+
 ## Quick start
 
 ```bash

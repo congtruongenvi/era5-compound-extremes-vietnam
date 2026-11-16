@@ -1,0 +1,24 @@
+# Data files are not committed: ERA5 subsets run to hundreds of MB and the
+# licence does not permit redistribution. Regenerate with src/fetch.py.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# CDS API credentials -- never commit these
+.cdsapirc
+~/.cdsapirc

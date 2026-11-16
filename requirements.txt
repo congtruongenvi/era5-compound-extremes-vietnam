@@ -1,0 +1,16 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.1
+xarray>=2024.1
+matplotlib>=3.8
+scikit-learn>=1.4
+
+# ERA5 retrieval. Only needed for the real-data path; the synthetic
+# validation path runs without it.
+cdsapi>=0.7
+
+# Optional, for the spatial extensions noted in the README
+# scipy>=1.11          # connected-component labelling in space-time
+# geopandas>=0.14      # administrative boundaries and exposure linkage
+# netcdf4>=1.6         # NetCDF backend
+# dask>=2024.1         # chunked processing for full-resolution ERA5
